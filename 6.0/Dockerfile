@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:8u342-jdk-slim-bullseye
 
 # install plugin dependencies
 RUN apt-get update && \
